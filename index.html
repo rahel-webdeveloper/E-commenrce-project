@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Headphone Ecommerce</title>
+    <link rel="stylesheet" href="Style/style.css" />
+    <link rel="stylesheet" href="style/all.css" />
+  </head>
+  <body>
+    <div class="main-wrapper">
+      <!-- Search For Products-->
+      <div class="header">
+        <h2 class="logo">R</h2>
+        <!-- Cart Icon-->
+        <div class="cart-icon">
+          <span id="cart-toggle">
+            <!-- <i class="fa-solid fa-cart-shopping" id="cart-toggle"></i> -->
+            <img src="images/add-cart.png" alt="" />
+            <small id="number-of-items">0</small>
+          </span>
+
+          <span id="bell_icon">
+            <i class="fa-regular fa-bell"></i>
+          </span>
+
+          <div class="date_box">
+            <span id="day">Friday</span>
+            <span id="month">May</span>
+            <span id="dateNum">23</span>
+          </div>
+
+          <div class="profile">
+            <img src="profile.jpg" class="profile" alt="" />
+            <i class="fa-solid fa-angle-down"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- All Products-->
+      <div class="products">
+        <div class="new_search">
+          <h2>New Arrivals</h2>
+          <div class="search-group">
+            <i class="fa-solid fa-search" id="search_icon"></i>
+            <input
+              type="text"
+              id="search_input"
+              placeholder="Search your products..."
+            />
+          </div>
+        </div>
+
+        <div class="product-cards"></div>
+      </div>
+    </div>
+
+    <!--    Cart   -->
+
+    <div class="cart">
+      <div class="cart-header">
+        <h3>Your Cart (<span id="card_length">0</span>)</h3>
+        <span id="cart-close"><i class="fa-solid fa-xmark"></i></span>
+      </div>
+
+      <div class="list-html-cart"></div>
+      <!-- <img src="images/shopping-cart (2).png" class="shopping-img" alt=""> -->
+      <!--  Cart Footer  -->
+      <div class="cart-footer">
+        <div class="order">
+          <p>Order Total</p>
+          <h3><span id="totalPrice">$0.00</span></h3>
+        </div>
+        <button>Cofirm Order</button>
+      </div>
+    </div>
+
+    <script src="JS/main.js"></script>
+    <script src="JS/app.js"></script>
+  </body>
+</html>
