@@ -1,2 +1,2 @@
 
-[Live Demo](https://cozy-cocada-a974b2.netlify.app)
+[Live Demo](https://e-commerce-023.netlify.app/)
